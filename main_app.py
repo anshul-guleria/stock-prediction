@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 from helper import download_stock_data, next_7_days_predictions, retrain_model,download_stock_data
 
 
-st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
+st.set_page_config(page_title="Stock Prediction Dashboard", page_icon=":bar_chart:", layout="wide")
 
 st.sidebar.title("Stock Price Analysis")
 st.sidebar.markdown("Use this dashboard to predict stock prices using a pre-trained LSTM model.")   
